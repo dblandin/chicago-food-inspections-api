@@ -8,6 +8,9 @@ class AddInspections < ActiveRecord::Migration
       t.string :address
       t.string :city
       t.string :zip
+      t.string :longitude
+      t.string :latitude
+      t.boolean :coordinates_needs_recoding
       t.string :state
       t.string :dba_name
       t.string :aka_name
